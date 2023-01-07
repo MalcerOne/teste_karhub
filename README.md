@@ -23,3 +23,12 @@ VOLKSWAGEN PASSAT 1992@#VR6 2.8 12V<br>
 VOLKSWAGEN PASSAT 1993@#VR6 2.8 12V<br><br>
 (“@#” was added to help to parse or finding the year)<br>
 We need to associate each item in the B list to one item in the A list, or vice versa.
+
+# How to execute
+⋅⋅* First, you need to git clone this repository into a directory of your choice.
+⋅⋅* Then, run this command on the terminal, to create a virtual enviroment of the project `python3 -m venv env`
+⋅⋅* A directory /env will be created. Execute this command on console: `source env/bin/activate`
+⋅⋅* Now, you can see that you are already into the enviroment. Execute the next command to install all dependencies of the project: `pip install -r requirements.txt`
+⋅⋅* Finally, download [this](https://docs.google.com/spreadsheets/d/1UQwiCNfocyT_RmETH73EGCKthtKgmrdJ/edit#gid=964486320 "First file") and [this](https://drive.google.com/file/d/1gMzbKAgrJFJ4CQYoE-HkBaXMlLKeBlhL/view "Second file") file, and put inside a directory in the main project called 'files'.
+⋅⋅* Then, you can execute the command: `python3 main.py` to run the program. A file named "final.csv" should pop in the main directory at the end of execution.
+
